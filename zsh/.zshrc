@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-# export ZSH="/home/wanadoo/.oh-my-zsh"
+export ZSH="/home/wanadoo/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -98,6 +98,8 @@ export LANG=en_US.UTF-8
 # alias 
 alias rm='rm -i'
 alias pacman='sudo pacman'
+alias py='python'
+
 
 plugins=(
     archlinux
@@ -108,5 +110,5 @@ plugins=(
     zsh-syntax-highlighting
 )
 
-
 source $ZSH/oh-my-zsh.sh
+
