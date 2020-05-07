@@ -7,7 +7,7 @@ from collections import namedtuple
 
 
 PathWrapper = namedtuple('PathWrapper', 'copy_file to_dir')
-files = [PathWrapper(".zshrc", "zsh")]
+files = [PathWrapper(".zshrc", "zsh"), PathWrapper(".vimrc", ".")]
 
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
