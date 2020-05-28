@@ -1,8 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'rust-lang/rust.vim'
-Plug 'zah/nim.vim'
-Plug 'nvie/vim-flake8'
+Plug 'baabelfish/nvim-nim'
+Plug 'davidhalter/jedi-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/c.vim'
