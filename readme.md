@@ -1,1 +1,1 @@
-My config files to: zsh, vin, vscode and etc.
+My config files to: zsh, vim, vscode and etc.
