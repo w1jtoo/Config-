@@ -99,7 +99,10 @@ export LANG=en_US.UTF-8
 alias rm='rm -i'
 alias pacman='sudo pacman'
 alias py='python'
-
+alias tg='~/Telegram/Telegram/Telegram'
+alias pushup='git push -u origin HEAD'
+alias google='google-chrome-stable'
+# alias conda
 
 plugins=(
     archlinux
@@ -112,4 +115,20 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/wanadoo/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/wanadoo/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/wanadoo/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/wanadoo/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
