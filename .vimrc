@@ -81,7 +81,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " max line size
-set colorcolumn=90
+set colorcolumn=83
 
 " mouse scroll add
 set mouse=a

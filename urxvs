@@ -1,47 +1,88 @@
-
-URxvt.scrollBar: false
-URxvt.font: xft: Mono:size=10
-
 ! special
-*.foreground:   #ffffff
-*.background:   #000000
-*.cursorColor:  #ffffff
-
-
-URxvt.keysym.Control-Up:     \033[1;5A
-URxvt.keysym.Control-Down:   \033[1;5B
-URxvt.keysym.Control-Left:   \033[1;5D
-URxvt.keysym.Control-Right:  \033[1;5C
+*.foreground:   #7ea2b4
+*.background:   #161b1d
+*.cursorColor:  #7ea2b4
 
 ! black
-! *.color0:       #86817e
-! *.color8:       #86817e
-!
-! ! red
-! *.color1:       #d75756
-! *.color9:       #a63a3a
-!
-! ! green
-! *.color2:       #688c7d
-! *.color10:      #688c7d
-!
-! ! yellow
-! *.color3:       #ffb365
-! *.color11:      #ffb365
-!
-! ! blue
-! *.color4:       #68778c
-! *.color12:      #68778c
-!
-! ! magenta
-! *.color5:       #fdb3b2
-! *.color13:      #8c686a
-!
-! ! cyan
-! *.color6:       #86abd9
-! *.color14:      #86abd9
-!
-! ! white
-! *.color7:       #f7f8f2
-! *.color15:      #f7f8f2
-! a
+*.color0:       #161b1d
+*.color8:       #5a7b8c
+
+! red
+*.color1:       #d22d72
+*.color9:       #d22d72
+
+! green
+*.color2:       #568c3b
+*.color10:      #568c3b
+
+! yellow
+*.color3:       #8a8a0f
+*.color11:      #8a8a0f
+
+! blue
+*.color4:       #257fad
+*.color12:      #257fad
+
+! magenta
+*.color5:       #5d5db1
+*.color13:      #5d5db1
+
+! cyan
+*.color6:       #2d8f6f
+*.color14:      #2d8f6f
+
+! white
+*.color7:       #7ea2b4
+*.color15:      #ebf8ff
+
+urxvt.scrollBar:            false
+urxvt.font:              xft: Mono:size=12
+! urxvt*boldFont:
+! urxvt*background:           #000000
+! urxvt*foreground:           #161b1d
+! urxvt*cursorColor:          #6699CC
+! urxvt*colorBD:              #CCCCFF
+! 
+! !Visiblue
+! urxvt*color0:               #333366
+! urxvt*color8:               #333399
+! 
+! urxvt*color1:               #6666CC
+! urxvt*color9:               #9999FF
+! 
+! urxvt*color2:               #0099CC
+! urxvt*color10:              #00CCFF
+! 
+! urxvt*color3:               #3366CC
+! urxvt*color11:              #6699FF
+! 
+! urxvt*color4:               #006699
+! urxvt*color12:              #0099CC
+! 
+! urxvt*color5:               #0066FF
+! urxvt*color13:              #0099FF
+! 
+! urxvt*color6:               #669999
+! urxvt*color14:              #66CCCC
+! 
+! urxvt*color7:               #99CCCC
+! urxvt*color15:              #CCFFFF
+
+
+
+urxvt.keysym.Control-Up:     \033[1;5A
+urxvt.keysym.Control-Down:   \033[1;5B
+urxvt.keysym.Control-Left:   \033[1;5D
+urxvt.keysym.Control-Right:  \033[1;5C
+
+! https://github.com/majutsushi/urxvt-font-size
+urxvt.perl-ext-common: font-size
+
+urxvt.keysym.C-equal:     font-size:increase
+urxvt.keysym.C-minus:     font-size:decrease
+
+urxvt.keysym.C-S-Up:      font-size:incglobal
+urxvt.keysym.C-S-Down:    font-size:decglobal
+
+! URxvt.keysym.C-home:    font-size:reset
+! URxvt.keysym.C-slash:    font-size:show
