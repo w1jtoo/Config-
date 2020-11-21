@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/wanadoo/.oh-my-zsh"
@@ -101,8 +101,9 @@ alias pacman='sudo pacman'
 alias py='python'
 alias tg='~/Telegram/Telegram/Telegram'
 alias pushup='git push -u origin HEAD'
-alias google='google-chrome-stable'
-# alias conda
+alias chrome='google-chrome-stable'
+alias '?'=duck
+alias '??'=google
 
 plugins=(
     archlinux
@@ -115,7 +116,11 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+# add LYNX - CI
+export PATH=/home/wanadoo/Downloads/dotfiles/common/lynx:$PATH
 
+# add scripts dir
+export PATH=/home/wanadoo/scripts:$PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
