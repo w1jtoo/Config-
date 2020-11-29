@@ -117,7 +117,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 # add LYNX - CI
-export PATH=/home/wanadoo/Downloads/dotfiles/common/lynx:$PATH
+export PATH=/home/wanadoo/lynx:$PATH
 
 # add scripts dir
 export PATH=/home/wanadoo/scripts:$PATH

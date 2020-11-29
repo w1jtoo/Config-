@@ -101,3 +101,14 @@ noremap <silent> <C-S>  :Update<CR>
 inoremap <silent> <C-S> <C-C>:Update<CR>
 vnoremap <silent> <C-S> <C-O>:Update<CR>
 
+" fix the indent
+set autoindent shiftwidth=4 cindent smarttab
+
+" enable Normal mode keys in ru layout
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+" add line number
+set number relativenumber
+
+" add line breaks (or use :nowrap)
+set wrap showbreak=…
