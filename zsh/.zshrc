@@ -122,6 +122,9 @@ export PATH=/home/wanadoo/lynx:$PATH
 # add scripts dir
 export PATH=/home/wanadoo/scripts:$PATH
 
+# add binary dir
+export PATH=/home/wanadoo/bin:$PATH
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/wanadoo/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -155,3 +158,6 @@ function clear-scrollback-buffer {
 
 zle -N clear-scrollback-buffer
 bindkey '^L' clear-scrollback-buffer
+
+# opam configuration
+test -r /home/wanadoo/.opam/opam-init/init.zsh && . /home/wanadoo/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

@@ -51,6 +51,12 @@ Plug 'omnisharp/omnisharp-vim'
 " hex editor plugin
 Plug 'fidian/hexmode'
 
+" url underline
+Plug 'itchyny/vim-highlighturl'
+
+Plug 'LucHermitte/lh-vim-lib'
+Plug 'LucHermitte/local_vimrc'
+
 call plug#end()
 
 " faster:
@@ -112,3 +118,10 @@ set number relativenumber
 
 " add line breaks (or use :nowrap)
 set wrap showbreak=…
+
+" added whitelist dirs to local vim config plugin
+call lh#local_vimrc#munge('whitelist', $HOME.'/dev')
+call lh#local_vimrc#munge('whitelist', $HOME.'/programming')
+
+" disable bells sound
+set belloff=all
